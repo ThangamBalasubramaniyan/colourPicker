@@ -41,7 +41,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
@@ -49,9 +51,8 @@
 
         <ImageButton
             android:id="@+id/greenButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:layout_marginEnd="40dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:background="@drawable/round_palette3"
             app:layout_constraintBottom_toBottomOf="@+id/orangeButton"
             app:layout_constraintEnd_toEndOf="parent"
@@ -59,8 +60,8 @@
 
         <ImageButton
             android:id="@+id/magentaButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/round_palette"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
@@ -69,8 +70,8 @@
 
         <ImageButton
             android:id="@+id/yellowButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/round_palette2"
             app:layout_constraintBottom_toBottomOf="@+id/magentaButton"
@@ -79,8 +80,8 @@
 
         <ImageButton
             android:id="@+id/navyBlueButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/round_palette4"
             app:layout_constraintBottom_toBottomOf="@+id/yellowButton"
@@ -89,8 +90,8 @@
 
         <ImageButton
             android:id="@+id/orangeButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/round_palette1"
             app:layout_constraintBottom_toBottomOf="@+id/navyBlueButton"
@@ -101,11 +102,10 @@
             android:id="@+id/imageButton5"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="44dp"
+            android:layout_marginEnd="25dp"
             android:layout_marginBottom="10dp"
-            android:background="@android:drawable/ic_input_add"
+            android:background="@drawable/round_add_palette"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/magentaButton"
             app:layout_constraintStart_toStartOf="parent"
